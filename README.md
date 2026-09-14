@@ -13,5 +13,9 @@ A production-grade Python web scraping project built on Ubuntu Linux.
 * `02_paginated_scraper.py`: Automatic next-page navigation and relative URL joining.
 * `03_nested_detail_scraper.py`: Multi-level catalog crawling for item details.
 * `04_production_scraper.py`: Robust HTTP session pooling, exponential retries, User-Agent headers, and rate limiting.
+
 ## Quickstart
+```bash
 source .venv/bin/activate
+pip install -r requirements.txt
+python 04_production_scraper.py

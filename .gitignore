@@ -1,13 +1,6 @@
-.venv/
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 .env
-*.log
 *.csv
 *.json
-!.gitkeep
-.vscode/
-.idea/
+*.xlsx
+__pycache__/
+.venv/

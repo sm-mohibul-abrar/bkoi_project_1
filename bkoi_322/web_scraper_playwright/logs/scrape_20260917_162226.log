@@ -1,0 +1,319 @@
+2026-09-17 16:22:26,427 [INFO] ============================================================
+2026-09-17 16:22:26,427 [INFO]   BARIKOI CAFE GULSHAN — GOOGLE MAPS SCRAPER
+2026-09-17 16:22:26,427 [INFO]   Target: 10 cafes
+2026-09-17 16:22:26,427 [INFO]   Output: /home/barikoi/bkoi_project_1/bkoi_322/web_scraper_playwright/data/cafes_gulshan.json
+2026-09-17 16:22:26,427 [INFO] ============================================================
+2026-09-17 16:22:26,427 [INFO] Remaining: 10 cafes
+
+2026-09-17 16:22:26,750 [INFO] 
+[1/10]  NORTH END coffee roasters
+2026-09-17 16:22:26,751 [INFO]   place_code = ZGPBU53872
+2026-09-17 16:22:26,797 [INFO]   → GET https://www.google.com/maps/search/NORTH+END+coffee+roasters+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:23:17,962 [INFO]   ✅  rating=None  reviews=3  hours=0 days  menu=0 items  phone=+88001313361600
+2026-09-17 16:23:17,971 [INFO]   ⏳ Waiting 3.8s …
+2026-09-17 16:23:21,814 [INFO] 
+[2/10]  The Chocolate Room
+2026-09-17 16:23:21,814 [INFO]   place_code = NYKC3699
+2026-09-17 16:23:21,842 [INFO]   → GET https://www.google.com/maps/search/The+Chocolate+Room+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:24:04,728 [WARNING]   Reviews error: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button[jsaction*=\"review\"]").first
+    - locator resolved to <button class="Dx2c3c" aria-haspopup="true" aria-label="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" data-tooltip="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" jsaction="pane.wfvdle42.reviewlegaldisclosure.toggle; focus:pane.focusTooltip; blur:pane.blurTooltip">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <ul class="tcqfud fontBodyMedium">…</ul> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="mYFZJb" jsaction="pane.wfvdle78"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <ul class="tcqfud fontBodyMedium">…</ul> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle78"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  14 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle78"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <ul class="tcqfud fontBodyMedium">…</ul> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle78"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle78"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="mYFZJb" jsaction="pane.wfvdle78"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2026-09-17 16:24:04,731 [INFO]   ✅  rating=None  reviews=0  hours=0 days  menu=0 items  phone=+88001911554464
+2026-09-17 16:24:04,740 [INFO]   ⏳ Waiting 6.1s …
+2026-09-17 16:24:10,851 [INFO] 
+[3/10]  Tabaq Coffee
+2026-09-17 16:24:10,851 [INFO]   place_code = SGDY9062
+2026-09-17 16:24:10,877 [INFO]   → GET https://www.google.com/maps/search/Tabaq+Coffee+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:24:53,660 [WARNING]   Reviews error: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button[jsaction*=\"review\"]").first
+    - locator resolved to <button class="Dx2c3c" aria-haspopup="true" aria-label="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" data-tooltip="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" jsaction="pane.wfvdle43.reviewlegaldisclosure.toggle; focus:pane.focusTooltip; blur:pane.blurTooltip">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <ul class="tcqfud fontBodyMedium">…</ul> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="mYFZJb" jsaction="pane.wfvdle79"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <ul class="tcqfud fontBodyMedium">…</ul> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle79"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  14 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle79"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <ul class="tcqfud fontBodyMedium">…</ul> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle79"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle79"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="mYFZJb" jsaction="pane.wfvdle79"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2026-09-17 16:24:53,663 [INFO]   ✅  rating=None  reviews=0  hours=0 days  menu=0 items  phone=+88001743440435
+2026-09-17 16:24:53,669 [INFO]   ⏳ Waiting 5.1s …
+2026-09-17 16:24:58,726 [INFO] 
+[4/10]  North End Coffee Roasters
+2026-09-17 16:24:58,727 [INFO]   place_code = OGSU6472
+2026-09-17 16:24:58,755 [INFO]   → GET https://www.google.com/maps/search/North+End+Coffee+Roasters+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:25:49,528 [INFO]   ✅  rating=None  reviews=3  hours=0 days  menu=0 items  phone=+88001313361600
+2026-09-17 16:25:49,537 [INFO]   ⏳ Waiting 4.1s …
+2026-09-17 16:25:53,597 [INFO] 
+[5/10]  KOI The
+2026-09-17 16:25:53,597 [INFO]   place_code = QGFBD20949
+2026-09-17 16:25:53,624 [INFO]   → GET https://www.google.com/maps/search/KOI+The+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:26:32,818 [WARNING]   Reviews error: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button[jsaction*=\"review\"]").first
+    - locator resolved to <button class="Dx2c3c" aria-haspopup="true" aria-label="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" data-tooltip="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" jsaction="pane.wfvdle24.reviewlegaldisclosure.toggle; focus:pane.focusTooltip; blur:pane.blurTooltip">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle82"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle82"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle82"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2026-09-17 16:26:32,821 [INFO]   ✅  rating=None  reviews=0  hours=0 days  menu=0 items  phone=+88001322894972
+2026-09-17 16:26:32,828 [INFO]   ⏳ Waiting 4.1s …
+2026-09-17 16:26:36,969 [INFO] 
+[6/10]  Arabika Coffee
+2026-09-17 16:26:36,969 [INFO]   place_code = GOUG0093
+2026-09-17 16:26:36,999 [INFO]   → GET https://www.google.com/maps/search/Arabika+Coffee+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:27:16,229 [WARNING]   Reviews error: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button[jsaction*=\"review\"]").first
+    - locator resolved to <button class="Dx2c3c" aria-haspopup="true" aria-label="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" data-tooltip="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" jsaction="pane.wfvdle24.reviewlegaldisclosure.toggle; focus:pane.focusTooltip; blur:pane.blurTooltip">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle82"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle82"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle82"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2026-09-17 16:27:16,232 [INFO]   ✅  rating=None  reviews=0  hours=0 days  menu=0 items  phone=+88001313487398
+2026-09-17 16:27:16,241 [INFO]   ⏳ Waiting 6.8s …
+2026-09-17 16:27:23,038 [INFO] 
+[7/10]  KONA Cafe
+2026-09-17 16:27:23,038 [INFO]   place_code = DPDVR63831
+2026-09-17 16:27:23,064 [INFO]   → GET https://www.google.com/maps/search/KONA+Cafe+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:28:32,553 [INFO]   ✅  rating=None  reviews=5  hours=0 days  menu=0 items  phone=+88001300290494
+2026-09-17 16:28:32,561 [INFO]   ⏳ Waiting 6.3s …
+2026-09-17 16:28:38,895 [INFO] 
+[8/10]  Biancaffe Gulshan
+2026-09-17 16:28:38,896 [INFO]   place_code = KZTBH98366
+2026-09-17 16:28:38,924 [INFO]   → GET https://www.google.com/maps/search/Biancaffe+Gulshan+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:29:18,107 [WARNING]   Reviews error: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button[jsaction*=\"review\"]").first
+    - locator resolved to <button class="Dx2c3c" aria-haspopup="true" aria-label="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" data-tooltip="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" jsaction="pane.wfvdle24.reviewlegaldisclosure.toggle; focus:pane.focusTooltip; blur:pane.blurTooltip">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle80"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle80"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle80"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2026-09-17 16:29:18,109 [INFO]   ✅  rating=None  reviews=0  hours=0 days  menu=0 items  phone=+88001706060640
+2026-09-17 16:29:18,123 [INFO]   ⏳ Waiting 6.9s …
+2026-09-17 16:29:24,991 [INFO] 
+[9/10]  Crimson Cup Coffee
+2026-09-17 16:29:24,991 [INFO]   place_code = GQAWI95253
+2026-09-17 16:29:25,020 [INFO]   → GET https://www.google.com/maps/search/Crimson+Cup+Coffee+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:30:04,289 [WARNING]   Reviews error: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button[jsaction*=\"review\"]").first
+    - locator resolved to <button class="Dx2c3c" aria-haspopup="true" aria-label="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" data-tooltip="রিভিউয়ের সারাংশ সম্পর্কে আরও তথ্য" jsaction="pane.wfvdle24.reviewlegaldisclosure.toggle; focus:pane.focusTooltip; blur:pane.blurTooltip">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle75"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="mYFZJb" jsaction="pane.wfvdle75"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="mYFZJb" jsaction="pane.wfvdle75"></div> from <div tabindex="-1" class="z2ybue Hk4XGb">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2026-09-17 16:30:04,291 [INFO]   ✅  rating=None  reviews=0  hours=0 days  menu=0 items  phone=+88001911337012
+2026-09-17 16:30:04,299 [INFO]   ⏳ Waiting 5.7s …
+2026-09-17 16:30:10,001 [INFO] 
+[10/10]  The White Canary
+2026-09-17 16:30:10,001 [INFO]   place_code = AWSP6513
+2026-09-17 16:30:10,030 [INFO]   → GET https://www.google.com/maps/search/The+White+Canary+Gulshan+Dhaka+Bangladesh
+2026-09-17 16:30:24,582 [INFO]   ✅  rating=None  reviews=0  hours=0 days  menu=0 items  phone=+88001709642004
+2026-09-17 16:30:24,632 [INFO] 
+============================================================
+2026-09-17 16:30:24,632 [INFO]   DONE
+2026-09-17 16:30:24,632 [INFO]   Total records : 10
+2026-09-17 16:30:24,632 [INFO]   Status OK     : 10
+2026-09-17 16:30:24,632 [INFO]   Errors        : 0
+2026-09-17 16:30:24,632 [INFO]   JSON → /home/barikoi/bkoi_project_1/bkoi_322/web_scraper_playwright/data/cafes_gulshan.json
+2026-09-17 16:30:24,632 [INFO]   CSV  → /home/barikoi/bkoi_project_1/bkoi_322/web_scraper_playwright/data/cafes_gulshan.csv
+2026-09-17 16:30:24,632 [INFO] ============================================================

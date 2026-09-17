@@ -1,0 +1,11 @@
+2026-09-17 16:20:35,920 [INFO] ============================================================
+2026-09-17 16:20:35,920 [INFO]   BARIKOI CAFE GULSHAN — GOOGLE MAPS SCRAPER
+2026-09-17 16:20:35,920 [INFO]   Target: 10 cafes
+2026-09-17 16:20:35,921 [INFO]   Output: /home/barikoi/bkoi_project_1/bkoi_322/web_scraper_playwright/data/cafes_gulshan.json
+2026-09-17 16:20:35,921 [INFO] ============================================================
+2026-09-17 16:20:35,921 [INFO] Remaining: 10 cafes
+
+2026-09-17 16:20:36,440 [INFO] 
+[1/10]  NORTH END coffee roasters
+2026-09-17 16:20:36,440 [INFO]   place_code = ZGPBU53872
+2026-09-17 16:20:36,615 [INFO]   → GET https://www.google.com/maps/search/NORTH+END+coffee+roasters+Gulshan+Dhaka+Bangladesh

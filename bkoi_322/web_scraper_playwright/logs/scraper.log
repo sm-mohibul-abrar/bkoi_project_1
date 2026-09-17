@@ -1,0 +1,138 @@
+[2026-09-17 11:07:10] [INFO] =======================================================
+[2026-09-17 11:07:10] [INFO] BARIKOI CAFE GULSHAN SCRAPER — STARTING
+[2026-09-17 11:07:10] [INFO] Target: 10 cafes
+[2026-09-17 11:07:10] [INFO] =======================================================
+[2026-09-17 11:07:10] [INFO] 
+[1/10] Processing: Cafe Avenue 101
+[2026-09-17 11:07:10] [INFO]   ✅  completeness=56%  menu=4  reviews=1  hours=yes  phone=N/A
+[2026-09-17 11:07:10] [INFO] Saved 1 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:10] [INFO] Saved 1 records → data/raw/TCURP95270.json
+[2026-09-17 11:07:10] [INFO] 
+[2/10] Processing: Windy Terrace
+[2026-09-17 11:07:10] [INFO]   ✅  completeness=89%  menu=4  reviews=2  hours=yes  phone=+8801755-000000
+[2026-09-17 11:07:10] [INFO] Saved 2 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:10] [INFO] Saved 1 records → data/raw/TRCNF11805.json
+[2026-09-17 11:07:10] [INFO] 
+[3/10] Processing: Transcom Cafeteria
+[2026-09-17 11:07:10] [INFO]   [website] Fetching http://www.transcombd.com
+[2026-09-17 11:07:14] [INFO]   ✅  completeness=78%  menu=4  reviews=1  hours=yes  phone=+880258814663
+[2026-09-17 11:07:14] [INFO] Saved 3 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:14] [INFO] Saved 1 records → data/raw/OGWCB11203.json
+[2026-09-17 11:07:14] [INFO] 
+[4/10] Processing: Tabaq Coffee
+[2026-09-17 11:07:14] [INFO]   [website] Fetching https://tabaqcoffee.com
+[2026-09-17 11:07:16] [INFO]   ✅  completeness=100%  menu=13  reviews=5  hours=yes  phone=+8801743-440435
+[2026-09-17 11:07:16] [INFO] Saved 4 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:16] [INFO] Saved 1 records → data/raw/SGDY9062.json
+[2026-09-17 11:07:16] [INFO] 
+[5/10] Processing: NORTH END coffee roasters
+[2026-09-17 11:07:16] [INFO]   [website] Fetching http://www.northendcoffee.com
+[2026-09-17 11:07:19] [INFO]   ✅  completeness=100%  menu=31  reviews=7  hours=yes  phone=+8801755697320
+[2026-09-17 11:07:19] [INFO] Saved 5 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:19] [INFO] Saved 1 records → data/raw/ZGPBU53872.json
+[2026-09-17 11:07:19] [INFO] 
+[6/10] Processing: The Chocolate Room
+[2026-09-17 11:07:19] [INFO]   [website] Fetching https://thechocolateroom.in
+[2026-09-17 11:07:30] [WARN] fetch_url(https://thechocolateroom.in): HTTPSConnectionPool(host='thechocolateroom.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b90ae357d40>: Failed to resolve 'thechocolateroom.in' ([Errno -3] Temporary failure in name resolution)"))
+[2026-09-17 11:07:30] [WARN]   [website] Blocked or unreachable: https://thechocolateroom.in
+[2026-09-17 11:07:32] [INFO]   ✅  completeness=89%  menu=7  reviews=4  hours=yes  phone=+8801911-554464
+[2026-09-17 11:07:32] [INFO] Saved 6 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:32] [INFO] Saved 1 records → data/raw/NYKC3699.json
+[2026-09-17 11:07:32] [INFO] 
+[7/10] Processing: Fantasium
+[2026-09-17 11:07:32] [INFO]   ✅  completeness=78%  menu=5  reviews=1  hours=yes  phone=N/A
+[2026-09-17 11:07:32] [INFO] Saved 7 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:32] [INFO] Saved 1 records → data/raw/DZZJ2652.json
+[2026-09-17 11:07:32] [INFO] 
+[8/10] Processing: Purnima Cafe
+[2026-09-17 11:07:32] [INFO]   ✅  completeness=67%  menu=5  reviews=1  hours=yes  phone=N/A
+[2026-09-17 11:07:32] [INFO] Saved 8 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:32] [INFO] Saved 1 records → data/raw/QSQR3060.json
+[2026-09-17 11:07:32] [INFO] 
+[9/10] Processing: Cafe Colombia
+[2026-09-17 11:07:32] [INFO]   ✅  completeness=78%  menu=7  reviews=2  hours=yes  phone=N/A
+[2026-09-17 11:07:32] [INFO] Saved 9 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:32] [INFO] Saved 1 records → data/raw/CINIL60381.json
+[2026-09-17 11:07:32] [INFO] 
+[10/10] Processing: 2Bros Cafe
+[2026-09-17 11:07:32] [INFO]   ✅  completeness=78%  menu=6  reviews=1  hours=yes  phone=N/A
+[2026-09-17 11:07:32] [INFO] Saved 10 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:32] [INFO] Saved 1 records → data/raw/BSDLO82913.json
+[2026-09-17 11:07:32] [INFO] 
+=======================================================
+[2026-09-17 11:07:32] [INFO] GENERATING SUMMARY REPORT...
+[2026-09-17 11:07:32] [INFO] 
+CSV exported → data/processed/cafes_gulshan_final.csv
+[2026-09-17 11:07:32] [INFO] JSON exported → data/processed/cafes_gulshan_final.json
+[2026-09-17 11:07:32] [INFO] Report saved → data/processed/summary_report.txt
+[2026-09-17 11:07:32] [INFO] 
+✅ ALL DONE.
+[2026-09-17 12:02:41] [INFO] =======================================================
+[2026-09-17 12:02:41] [INFO] BARIKOI CAFE GULSHAN SCRAPER — STARTING
+[2026-09-17 12:02:41] [INFO] Target: 10 cafes
+[2026-09-17 12:02:41] [INFO] =======================================================
+[2026-09-17 12:02:41] [INFO] 
+[1/10] Processing: Cafe Avenue 101
+[2026-09-17 12:02:41] [INFO]   ✅  completeness=56%  menu=4  reviews=1  hours=yes  phone=N/A
+[2026-09-17 12:02:41] [INFO] Saved 1 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:02:41] [INFO] Saved 1 records → data/raw/TCURP95270.json
+[2026-09-17 12:02:41] [INFO] 
+[2/10] Processing: Windy Terrace
+[2026-09-17 12:02:41] [INFO]   ✅  completeness=89%  menu=4  reviews=2  hours=yes  phone=+8801755-000000
+[2026-09-17 12:02:41] [INFO] Saved 2 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:02:41] [INFO] Saved 1 records → data/raw/TRCNF11805.json
+[2026-09-17 12:02:41] [INFO] 
+[3/10] Processing: Transcom Cafeteria
+[2026-09-17 12:02:41] [INFO]   [website] Fetching http://www.transcombd.com
+[2026-09-17 12:02:46] [INFO]   ✅  completeness=78%  menu=4  reviews=1  hours=yes  phone=+880258814663
+[2026-09-17 12:02:46] [INFO] Saved 3 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:02:46] [INFO] Saved 1 records → data/raw/OGWCB11203.json
+[2026-09-17 12:02:46] [INFO] 
+[4/10] Processing: Tabaq Coffee
+[2026-09-17 12:02:46] [INFO]   [website] Fetching https://tabaqcoffee.com
+[2026-09-17 12:02:49] [INFO]   ✅  completeness=100%  menu=13  reviews=5  hours=yes  phone=+8801743-440435
+[2026-09-17 12:02:49] [INFO] Saved 4 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:02:49] [INFO] Saved 1 records → data/raw/SGDY9062.json
+[2026-09-17 12:02:49] [INFO] 
+[5/10] Processing: NORTH END coffee roasters
+[2026-09-17 12:02:49] [INFO]   [website] Fetching http://www.northendcoffee.com
+[2026-09-17 12:02:52] [INFO]   ✅  completeness=100%  menu=31  reviews=7  hours=yes  phone=+8801755697320
+[2026-09-17 12:02:52] [INFO] Saved 5 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:02:52] [INFO] Saved 1 records → data/raw/ZGPBU53872.json
+[2026-09-17 12:02:52] [INFO] 
+[6/10] Processing: The Chocolate Room
+[2026-09-17 12:02:52] [INFO]   [website] Fetching https://thechocolateroom.in
+[2026-09-17 12:03:02] [WARN] fetch_url(https://thechocolateroom.in): HTTPSConnectionPool(host='thechocolateroom.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x763b3f75be60>: Failed to resolve 'thechocolateroom.in' ([Errno -3] Temporary failure in name resolution)"))
+[2026-09-17 12:03:02] [WARN]   [website] Blocked or unreachable: https://thechocolateroom.in
+[2026-09-17 12:03:04] [INFO]   ✅  completeness=89%  menu=7  reviews=4  hours=yes  phone=+8801911-554464
+[2026-09-17 12:03:04] [INFO] Saved 6 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:03:04] [INFO] Saved 1 records → data/raw/NYKC3699.json
+[2026-09-17 12:03:04] [INFO] 
+[7/10] Processing: Fantasium
+[2026-09-17 12:03:04] [INFO]   ✅  completeness=78%  menu=5  reviews=1  hours=yes  phone=N/A
+[2026-09-17 12:03:04] [INFO] Saved 7 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:03:04] [INFO] Saved 1 records → data/raw/DZZJ2652.json
+[2026-09-17 12:03:04] [INFO] 
+[8/10] Processing: Purnima Cafe
+[2026-09-17 12:03:04] [INFO]   ✅  completeness=67%  menu=5  reviews=1  hours=yes  phone=N/A
+[2026-09-17 12:03:04] [INFO] Saved 8 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:03:04] [INFO] Saved 1 records → data/raw/QSQR3060.json
+[2026-09-17 12:03:04] [INFO] 
+[9/10] Processing: Cafe Colombia
+[2026-09-17 12:03:04] [INFO]   ✅  completeness=78%  menu=7  reviews=2  hours=yes  phone=N/A
+[2026-09-17 12:03:04] [INFO] Saved 9 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:03:04] [INFO] Saved 1 records → data/raw/CINIL60381.json
+[2026-09-17 12:03:04] [INFO] 
+[10/10] Processing: 2Bros Cafe
+[2026-09-17 12:03:04] [INFO]   ✅  completeness=78%  menu=6  reviews=1  hours=yes  phone=N/A
+[2026-09-17 12:03:04] [INFO] Saved 10 records → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:03:04] [INFO] Saved 1 records → data/raw/BSDLO82913.json
+[2026-09-17 12:03:04] [INFO] 
+=======================================================
+[2026-09-17 12:03:04] [INFO] GENERATING SUMMARY REPORT...
+[2026-09-17 12:03:04] [INFO] 
+CSV exported → data/processed/cafes_gulshan_final.csv
+[2026-09-17 12:03:04] [INFO] JSON exported → data/processed/cafes_gulshan_final.json
+[2026-09-17 12:03:04] [INFO] Report saved → data/processed/summary_report.txt
+[2026-09-17 12:03:04] [INFO] 
+✅ ALL DONE.

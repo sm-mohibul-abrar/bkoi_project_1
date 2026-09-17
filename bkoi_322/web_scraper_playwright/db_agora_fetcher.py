@@ -4,11 +4,8 @@ from dotenv import load_dotenv
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
-# Load .env file from the current directory
 env_path = Path(__file__).resolve().parent / ".env"
-load_dotenv(dotenv_path=env_path)
 
-# Retrieve Staging DB environment variables
 STAGING_HOST = os.getenv("STAGING_HOST")
 STAGING_PORT = os.getenv("STAGING_PORT", "5432")
 STAGING_USER = os.getenv("STAGING_USER")

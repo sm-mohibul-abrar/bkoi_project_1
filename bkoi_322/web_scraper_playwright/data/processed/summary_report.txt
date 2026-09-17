@@ -1,0 +1,56 @@
+============================================================
+  BARIKOI CAFE GULSHAN — SCRAPING SUMMARY REPORT
+  Generated: 2026-09-17 12:03:04
+============================================================
+
+Total cafes processed : 10
+Fully OK              : 10
+
+FIELD COVERAGE:
+  Phone number           [██████████░░░░░░░░░░] 5/10 (50%)
+  Website URL            [████████░░░░░░░░░░░░] 4/10 (40%)
+  Facebook URL           [████████████████░░░░] 8/10 (80%)
+  Instagram URL          [████████████░░░░░░░░] 6/10 (60%)
+  Opening hours          [████████████████████] 10/10 (100%)
+  Google rating          [████████████████████] 10/10 (100%)
+  Menu items             [████████████████████] 10/10 (100%)
+  Reviews                [████████████████████] 10/10 (100%)
+  Description            [████████████████████] 10/10 (100%)
+
+PER-CAFE COMPLETENESS:
+  Tabaq Coffee                        ●●●●●●●●●● 100%  | menu:13 reviews:5
+  NORTH END coffee roasters           ●●●●●●●●●● 100%  | menu:31 reviews:7
+  Windy Terrace                       ●●●●●●●●   89%  | menu:4 reviews:2
+  The Chocolate Room                  ●●●●●●●●   89%  | menu:7 reviews:4
+  Transcom Cafeteria                  ●●●●●●●    78%  | menu:4 reviews:1
+  Fantasium                           ●●●●●●●    78%  | menu:5 reviews:1
+  Cafe Colombia                       ●●●●●●●    78%  | menu:7 reviews:2
+  2Bros Cafe                          ●●●●●●●    78%  | menu:6 reviews:1
+  Purnima Cafe                        ●●●●●●     67%  | menu:5 reviews:1
+  Cafe Avenue 101                     ●●●●●      56%  | menu:4 reviews:1
+
+DATA SOURCES USED (across all cafes):
+  google_maps                    10 cafes
+  facebook                       7 cafes
+  website                        3 cafes
+  tripadvisor                    3 cafes
+  instagram                      3 cafes
+  foodpanda                      3 cafes
+
+CAFES MISSING CRITICAL FIELDS:
+  Cafe Avenue 101: missing phone, website, facebook_url, instagram_url
+  Windy Terrace: missing website
+  Transcom Cafeteria: missing facebook_url, instagram_url
+  The Chocolate Room: missing instagram_url
+  Fantasium: missing phone, website
+  Purnima Cafe: missing phone, website, instagram_url
+  Cafe Colombia: missing phone, website
+  2Bros Cafe: missing phone, website
+
+NEXT STEPS:
+  1. Run live Google Maps scraper once sandbox allows external network
+  2. Fill missing phone numbers via direct call or Facebook About
+  3. Enrich menu for Cafe Avenue 101, Purnima Cafe, Transcom manually
+  4. Verify hours for The Chocolate Room (very late hours unusual)
+  5. Import final JSON into Barikoi database
+============================================================

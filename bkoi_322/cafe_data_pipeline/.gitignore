@@ -1,0 +1,10 @@
+# Runtime artifacts
+logs/
+.profiles/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Atomic-write backups of the output store
+data/output/*.bak
+data/output/*.tmp

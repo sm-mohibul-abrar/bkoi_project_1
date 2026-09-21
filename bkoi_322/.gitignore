@@ -19,3 +19,10 @@ web_scraper_playwright/logs/
 probes/
 file-tree.txt
 .DS_Store
+
+# Ignore Playwright & Browser Profile Caches
+.profiles/
+.*_profile/
+*_cache/
+.profiles/
+**/.profiles/

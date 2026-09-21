@@ -1,0 +1,68 @@
+# Cafe data pipeline configuration.
+# Anything omitted falls back to the built-in defaults in
+# cafe_pipeline/settings.py -- this file only pins what matters.
+
+location:
+  name: "Gulshan, Dhaka"
+  key: gulshan
+  # Scope per the project brief: Gulshan-1, Gulshan-2, Gulshan Avenue,
+  # Circle-1/2, North/South Gulshan. Adjacent areas (Tejgaon, Nikunja,
+  # Niketon, ...) stay out and are listed under summary.excluded.
+  in_scope_areas: ["gulshan"]
+  in_scope_sub_areas: ["gulshan 1", "gulshan 2", "gulshan"]
+  exclude_sub_type_patterns: ["cyber"]
+  require_cafe_subtype: true
+
+seed_csv: gulshan_all_cafe.csv
+
+paths:
+  raw_root: data/raw/google_maps
+  output_dir: data/output
+  browser_profiles: .profiles
+  logs: logs
+
+scraping:
+  # safe is the default and stays the default. paranoid doubles the
+  # intervals for days when Google looks twitchy. There is deliberately no
+  # aggressive profile.
+  pace: safe
+  paces:
+    safe:     {www.google.com: 22.0, "_default": 12.0}
+    paranoid: {www.google.com: 45.0, "_default": 20.0}
+  daily_budget:
+    www.google.com: 120
+    "_default": 60
+  host_jitter: 0.5
+  batch_size: 10
+  batch_cooldown_s: [180.0, 360.0]
+  breaker_threshold: 2
+  breaker_cooldown_s: 600.0
+  nav_timeout_ms: 45000
+  settle_ms: 3800
+  headless: false
+  geolocation: {latitude: 23.7806, longitude: 90.4193}
+
+matching:
+  geo_tolerance_m: 1200
+  reject_name_below: 0.45
+  high: {name: 0.6, dist_m: 300}
+  medium: {name: 0.4, dist_m: 800}
+  duplicate_radius_m: 150
+  duplicate_name_score: 0.8
+
+reviews:
+  max_per_platform: 5
+  min_text_len: 25
+
+hours:
+  min_days: 5
+
+retry:
+  max_attempts: 3
+
+# DOM selectors: each key overrides the default fallback list in
+# cafe_pipeline/sources/google_maps.py. Patch here when Google reshuffles.
+# sources:
+#   google_maps:
+#     selectors:
+#       review_text: ["span.wiI7pd"]

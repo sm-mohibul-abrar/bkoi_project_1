@@ -1,0 +1,24 @@
+# Python Caches & Virtual Environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Browser Profiles & Scraper Caches
+.profiles/
+**/.profiles/
+*_cache/
+
+# Datasets & Temporary Runs
+*.csv
+*.json
+*.bak
+budget/
+data/
+**/data/
+probes/
+
+# Logs
+*.log
+logs/
+**/logs/

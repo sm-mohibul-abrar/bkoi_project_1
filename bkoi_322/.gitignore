@@ -1,0 +1,21 @@
+# Python Caches & Environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Ignore All Datasets & Data Directories
+*.csv
+budget/*.json
+cafe_data_pipeline/data/
+data/
+web_scraper_playwright/data/
+*.bak
+
+# Logs & Temporary Files
+*.log
+logs/
+web_scraper_playwright/logs/
+probes/
+file-tree.txt
+.DS_Store
